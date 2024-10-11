@@ -1,5 +1,7 @@
 https://huggingface.co/datasets/MLCommons/peoples_speech
 1.5M rows of basic common speech (1 - 15 seconds long). Total dataset size is 399 GB in total.
 
+
+Useful tip to save memory:
 https://huggingface.co/docs/datasets/stream
  -  A method to use a dataset without downloading it onto your hard disk.
