@@ -1,0 +1,79 @@
++ export SRUN_CPUS_PER_TASK=48
++ SRUN_CPUS_PER_TASK=48
+++ head -n 1
+++ scontrol show hostnames 'npl[24-25]'
++ export MASTER_ADDR=npl24
++ MASTER_ADDR=npl24
++ export MASTER_PORT=7010
++ MASTER_PORT=7010
++ export GPUS_PER_NODE=8
++ GPUS_PER_NODE=8
++ export NNODES=2
++ NNODES=2
++ export NCCL_ASYNC_ERROR_HANDLING=1
++ NCCL_ASYNC_ERROR_HANDLING=1
++ export NCCL_IB_TIMEOUT=20
++ NCCL_IB_TIMEOUT=20
++ cd scratch-shared/partial-asr
++ source venv/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/gpfs/u/scratch/NLUG/NLUGcbsm/partial-asr/venv
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/gpfs/u/scratch/NLUG/NLUGcbsm/partial-asr/venv/bin:/gpfs/u/home/NLUG/NLUGfbbr/scratch/miniconda3x86/envs/asr/bin:/gpfs/u/home/NLUG/NLUGfbbr/scratch/miniconda3x86/condabin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/u/home/NLUG/NLUGfbbr/.local/bin:/gpfs/u/home/NLUG/NLUGfbbr/bin
+++ PATH=/gpfs/u/scratch/NLUG/NLUGcbsm/partial-asr/venv/bin:/gpfs/u/scratch/NLUG/NLUGcbsm/partial-asr/venv/bin:/gpfs/u/home/NLUG/NLUGfbbr/scratch/miniconda3x86/envs/asr/bin:/gpfs/u/home/NLUG/NLUGfbbr/scratch/miniconda3x86/condabin:/usr/lpp/mmfs/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/gpfs/u/home/NLUG/NLUGfbbr/.local/bin:/gpfs/u/home/NLUG/NLUGfbbr/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ export LOGLEVEL=INFO
++ LOGLEVEL=INFO
++ echo MASTER_ADDR=npl24
++ echo MASTER_PORT=7010
++ echo NNODES=2
++ srun bash -c 'accelerate launch \
+    --main_process_ip=$MASTER_ADDR \
+    --main_process_port=$MASTER_PORT \
+    --multi_gpu \
+    --mixed_precision=no \
+    --num_processes=$(($NNODES * $GPUS_PER_NODE)) \
+    --num_machines=$NNODES \
+    --dynamo_backend=no \
+    --num_machines=$NNODES  \
+    --machine_rank=$SLURM_PROCID \
+    --rdzv_conf="rdzv_endpoint=$MASTER_ADDR:$MASTER_PORT rdzv_backend=c10d" \
+    finetune.py'
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO] Starting elastic_operator with launch configs:
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   entrypoint       : finetune.py
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   min_nodes        : 2
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   max_nodes        : 2
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   nproc_per_node   : 8
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   run_id           : none
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   rdzv_backend     : static
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   rdzv_endpoint    : npl24:7010
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   rdzv_configs     : {'rdzv_endpoint': 'npl24:7010 rdzv_backend=c10d', 'rank': 0, 'timeout': 900}
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   max_restarts     : 0
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   monitor_interval : 5
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   log_dir          : None
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO]   metrics_cfg      : {}
+[2024-03-01 18:54:18,494] torch.distributed.launcher.api: [INFO] 
+[2024-03-01 18:54:18,495] torch.distributed.elastic.agent.server.local_elastic_agent: [INFO] log directory set to: /tmp/torchelastic_ya16xz2b/none_q6dsukt6
+[2024-03-01 18:54:18,495] torch.distributed.elastic.agent.server.api: [INFO] [default] starting workers for entrypoint: python
+[2024-03-01 18:54:18,495] torch.distributed.elastic.agent.server.api: [INFO] [default] Rendezvous'ing worker group
+
+real	0m27.907s
+user	0m0.007s
+sys	0m0.013s
