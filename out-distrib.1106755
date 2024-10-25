@@ -1,0 +1,173 @@
+MASTER_ADDR=npl13
+MASTER_PORT=7010
+NNODES=5
+LOCAL RANK 5
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 6
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 1
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 4
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 2
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 3
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 7
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 0
+Training Alpaca-LoRA model with params:
+use_lora: True
+base_model: FreedomIntelligence/phoenix-inst-chat-7b
+data_path: input-data/whisper-large-v2/train-clean-100-clean-360-40000.json
+dev_data_path: input-data/whisper-large-v2/validation-clean.json
+output_dir: models/whisper-large-v2/40000
+batch_size: 36
+micro_batch_size: 4
+num_epochs: 4
+learning_rate: 2e-05
+cutoff_len: 3225
+val_set_size: 2703
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: ['query_key_value', 'dense_h_to_4h', 'dense_4h_to_h', 'dense']
+train_on_inputs: False
+add_eos_token: False
+group_by_length: False
+wandb_project: 
+wandb_run_name: 
+wandb_watch: 
+wandb_log_model`: 
+resume_from_checkpoint: False
+prompt template: phoenix
+
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 1
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 3
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 7
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 0
+Training Alpaca-LoRA model with params:
+use_lora: True
+base_model: FreedomIntelligence/phoenix-inst-chat-7b
+data_path: input-data/whisper-large-v2/train-clean-100-clean-360-40000.json
+dev_data_path: input-data/whisper-large-v2/validation-clean.json
+output_dir: models/whisper-large-v2/40000
+batch_size: 36
+micro_batch_size: 4
+num_epochs: 4
+learning_rate: 2e-05
+cutoff_len: 3225
+val_set_size: 2703
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: ['query_key_value', 'dense_h_to_4h', 'dense_4h_to_h', 'dense']
+train_on_inputs: False
+add_eos_token: False
+group_by_length: False
+wandb_project: 
+wandb_run_name: 
+wandb_watch: 
+wandb_log_model`: 
+resume_from_checkpoint: False
+prompt template: phoenix
+
+TOTAL GRAD ACC STEPS 9
+LOCAL RANK 4
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 6
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 2
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 5
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 3
+TOTAL GRAD ACC STEPS 9
+LOCAL RANK 4
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 1
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 5
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 0
+Training Alpaca-LoRA model with params:
+use_lora: True
+base_model: FreedomIntelligence/phoenix-inst-chat-7b
+data_path: input-data/whisper-large-v2/train-clean-100-clean-360-40000.json
+dev_data_path: input-data/whisper-large-v2/validation-clean.json
+output_dir: models/whisper-large-v2/40000
+batch_size: 36
+micro_batch_size: 4
+num_epochs: 4
+learning_rate: 2e-05
+cutoff_len: 3225
+val_set_size: 2703
+lora_r: 8
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules: ['query_key_value', 'dense_h_to_4h', 'dense_4h_to_h', 'dense']
+train_on_inputs: False
+add_eos_token: False
+group_by_length: False
+wandb_project: 
+wandb_run_name: 
+wandb_watch: 
+wandb_log_model`: 
+resume_from_checkpoint: False
+prompt template: phoenix
+
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 5
+TOTAL GRAD ACC STEPS 9
+DDD 0
+WORLD SIZE 40 NEW GRAD ACC STEPS 0
+LOCAL RANK 1
+TOTAL GRAD ACC STEPS 9
+DDD 0LOCAL RANK
+ 7
