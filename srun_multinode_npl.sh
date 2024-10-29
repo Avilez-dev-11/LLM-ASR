@@ -8,7 +8,7 @@
 #SBATCH --time=06:00:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
-#SBATCH --mail-user=omarlcobas@gmail.com    # change this to your email!
+#SBATCH --mail-user=thomasyd1120@gmail.com    # change this to your email!
 
 # move into the correct directory and set up the environment to run in
 source activate asr
