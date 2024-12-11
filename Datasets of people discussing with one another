@@ -1,0 +1,14 @@
+CALLHOME American English Speech
+  - A collection of spontaneous telephone conversations with time-aligned transcriptions, useful for training ASR models to handle conversational dynamics and overlapping speech.
+
+AMI Meeting Corpus
+  - Features real-world meeting recordings with multimodal data, including audio, video, and detailed annotations, ideal for distinguishing interruptions and esoteric sounds.
+
+Switchboard Telephone Speech Corpus
+  - Contains over 2,400 telephone conversations annotated for disfluencies, speaker turns, and overlaps, making it a cornerstone for conversational ASR research.
+
+Fisher English Training Speech
+  - A diverse dataset of conversational telephone speech on specific topics, capturing natural accents and styles, useful for broadening ASR applicability to diverse conversational scenarios.
+
+
+Real world and most speech/audio data is a discussion with people talking to each other. It may be useful to train the model in a direction capable of understanding discussions and figure out what was said during disruptions/interruptions.
