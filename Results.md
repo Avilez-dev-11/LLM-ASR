@@ -26,3 +26,6 @@ Whisper Small
 
 Overall - pretty great results
 
+
+![image](https://github.com/user-attachments/assets/2c006bae-2fd6-474f-b7c8-7e5c8b3adf07)
+
