@@ -1,0 +1,62 @@
+/var/spool/slurm/d/job1426593/slurm_script: line 14: activate: No such file or directory
+/var/spool/slurm/d/job1426593/slurm_script: line 15: cd: scratch-shared/partial-asr-copy: No such file or directory
+/var/spool/slurm/d/job1426593/slurm_script: line 16: venv/bin/activate: No such file or directory
+WORLD_SIZE=80
+MASTER_ADDR=npl30
+MASTER_PORT=16593
+NODE_RANK=0
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory
+slurmstepd: error: execve(): torchrun: No such file or directory

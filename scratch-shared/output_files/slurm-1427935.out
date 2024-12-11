@@ -1,0 +1,44 @@
+/var/spool/slurm/d/job1427935/slurm_script: line 14: activate: No such file or directory
+WORLD_SIZE=8
+MASTER_ADDR=npl19
+MASTER_PORT=17935
+NODE_RANK=0
+[2024-11-06 23:14:35,509] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:35,509] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:35,509] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:35,509] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[W socket.cpp:436] [c10d] The server socket has failed to listen on [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to listen on [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to listen on [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[2024-11-06 23:14:36,694] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:36,695] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:36,698] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-11-06 23:14:36,702] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:17935 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to 0.0.0.0:17935 (errno: 98 - Address already in use).
+[E socket.cpp:472] [c10d] The server socket has failed to listen on any local network address.
+False
+
+===================================BUG REPORT===================================
+False
+
+===================================BUG REPORT===================================
+False
+
+===================================BUG REPORT===================================
+srun: error: npl19: task 6: Exited with exit code 1

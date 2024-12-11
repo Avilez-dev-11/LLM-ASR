@@ -1,0 +1,36 @@
+/var/spool/slurm/d/job1421455/slurm_script: line 14: activate: No such file or directory
+WORLD_SIZE=80
+MASTER_ADDR=npl01
+MASTER_PORT=11455
+NODE_RANK=0
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:11455 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:11455 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:11455 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:11455 (errno: 98 - Address already in use).
+[W socket.cpp:436] [c10d] The server socket has failed to bind to [::]:11455 (errno: 98 - Address already in use).
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+[2024-10-30 01:07:52,078] torch.distributed.run: [WARNING] master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+False
+False
+
+===================================BUG REPORT===================================
+
